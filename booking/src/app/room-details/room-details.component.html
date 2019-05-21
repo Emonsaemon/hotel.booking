@@ -1,0 +1,63 @@
+<section class="ftco-section contact-section" style="margin-bottom: 90px;">
+  <div class="container">
+    <div class="row block-9">
+      <section class="container">
+        <div class="row blog-entries element-animate">
+          <div class="col-md-12 col-lg-8 main-content" style="padding-left: 10px;">
+            <h1 class="mb-4">Опис кімнати</h1>
+              <table style="width: 100%;margin-top: 5%;">
+                <tr>
+                  <td><h4>
+                    Поверх
+                  </h4></td>
+                  <td>
+                    <div class="text-info">{{room.floor}}</div></td>
+                </tr>
+                <tr>
+                  <td><h4>
+                    Номер кімнати
+                  </h4></td>
+                  <td>
+                    <div class="text-info">{{room.roomNumber}}</div>
+                  </td>
+                </tr>
+                <tr>
+                  <td><h4>
+                    Галерея
+                  </h4></td>
+                  <td>
+                    <div class="text-info">{{room.photo}}</div></td>
+                </tr>
+                <tr>
+                  <td><h4>
+                    Ціна за одну ніч
+                  </h4></td>
+                  <td>
+                    <div class="text-info">{{room.pricePerNight}}</div></td>
+                </tr>
+                <tr>
+                  <td><h4>
+                    Кількість спальних місць
+                  </h4></td>
+                  <td>
+                    <div class="text-info">{{room.bed}}</div></td>
+                </tr>
+                <tr>
+                  <td><h4>
+                    Опис
+                  </h4></td>
+                  <td>
+                    <div class="text-info">{{room.description}}</div></td>
+                </tr>
+              </table>
+          </div>
+          <div class="col-md-12 col-lg-4 sidebar">
+            <div style="display: inline-block; box-shadow: 0 0 10px rgba(0,0,0,0.5); padding: 20px; margin: 20px;">
+              <a routerLink="/booking/{{room.id}}">Забронювати</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</section>

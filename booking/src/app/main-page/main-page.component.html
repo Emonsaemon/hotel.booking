@@ -1,0 +1,17 @@
+<div width="100%" style="margin:5% 10%;">
+    <div class="container site-section" id="welcome">
+        <h1 style="text-align: center;"><strong>Ласкаво просимо на сайт бронювання номерів</strong></h1>
+        <p>В любій подорожі дуже важливу роль грає це місце, де ви зупинитесь. Від цього напряму залежить якість відпочиноку, адже хороший готель - практично гарантія того, що відпочинок подарує вас найприємнішими емоціями. І наоборот: неяксіний сервіс в
+            готелях здатний зіпсувати враження навіть від найгарнішого місця. Але ми подбаємо про те, щоб цього з вами ні в якому разі не сталося! Система онлайн-бронювання номерів HotelBooking - це тільки кращі номери і тільки найвигідніші ціни!</p>
+    </div>
+	<div class="container site-section" style="margin-top:5%">
+		<div *ngFor='let room of rooms' style="display: inline-block;">
+			<span style="display: inline-block; box-shadow: 0 0 10px rgba(0,0,0,0.5); padding: 5%; margin: 3%;">
+				<a routerLink="/rooms/{{room.id}}">
+					<span style="padding: 3%;">Кількість спальних місць: {{room.bed}}</span>
+					<span style="padding: 3%; float: right;">Ціна за одну ніч: {{room.pricePerNight}}</span>
+				</a>
+			</span>
+		</div>
+	</div>
+</div>

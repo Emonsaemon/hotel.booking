@@ -1,0 +1,10 @@
+<div [ngStyle]="{'visibility':isValid ? 'hidden' : 'visible'}" style="color: red; text-align:center; width:100%; font-size: 16px;">
+  На жаль, деякі або всі обрані дні вже зарезервовані іншими клієнтами!
+</div>
+<div class="display: inline-block; margin: 20px;">
+  <p>Введіть дату в'їзду
+    <input type="date" name="startDate" [(ngModel)]="reservation.startDate"></p>
+  <p>Введіть дату виїзду
+    <input type="date" name="endDate" [(ngModel)]="reservation.endDate"></p>
+  <p><button (click)="validateData()">Підтвердити</button></p>
+</div>
