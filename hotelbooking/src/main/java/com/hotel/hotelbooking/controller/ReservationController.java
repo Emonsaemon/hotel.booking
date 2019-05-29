@@ -44,6 +44,12 @@ public class ReservationController {
                 .convertToDTO(reservationService.findByRoomId(id)), HttpStatus.OK);
     }
 
+    @GetMapping("/user/{id}")
+    public ResponseEntity<List<ReservationDTO>> getByUserId(@PathVariable Long id) {
+        return new ResponseEntity<>(reservationConverter
+                .convertToDTO(reservationService.findByUserId(id)),
+                HttpStatus.OK);
+    }
     /*@PutMapping("/update")
     public ResponseEntity<ReservationDTO> update(@RequestBody ReservationDTO reservationDTO) {
         Reservation reservation = reservationService.update(reservationConverter.convertToEntity(reservationDTO));

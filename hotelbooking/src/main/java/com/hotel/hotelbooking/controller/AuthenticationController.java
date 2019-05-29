@@ -35,6 +35,12 @@ public class AuthenticationController {
     @Autowired
     UserConverter userConverter;
 
+    @GetMapping("/current")
+    public ResponseEntity<UserDTO> getCurrent() {
+        return new ResponseEntity<>(userConverter
+                .convertToDTO(userService.getCurrentUser()), HttpStatus.OK);
+    }
+
     @PostMapping("/signin")
     public ResponseEntity<Token> authenticateUser(HttpServletResponse response,
             @Valid @RequestBody UserDTO signInFormDTO) {
@@ -45,7 +51,7 @@ public class AuthenticationController {
         responseHeaders.set(AuthenticationConstant
                 .AUTHENTICATION_TOKEN_HEADER, token);
         response.addCookie(createCookie(token));
-        return ResponseEntity.ok()
+         return ResponseEntity.ok()
                 .headers(responseHeaders)
                 .body(authToken);
     }

@@ -1,0 +1,100 @@
+<div class="container">
+<div class="row">
+  <div class="col-6 shadow" style="margin-top: 2%; margin-bottom: 2%;">
+    <h3 class="text-center">
+      {{user.surname}} {{user.name}}
+    </h3>
+    <div class="text-center">Редагувати профіль</div>
+    <div [innerHTML]="message" style="color: red;"></div>
+    <div class="p-t-31 p-b-9">
+            <span class="txt1">
+              Ім'я
+            </span>
+    </div>
+    <div class="form-group">
+      <input type="text" name="login" [(ngModel)]="user.name" class="form-input" id="login" />
+    </div>
+    <div class="p-t-31 p-b-9">
+            <span class="txt1">
+              Прізвище
+            </span>
+    </div>
+    <div class="form-group">
+      <input type="text" name="firstName" [(ngModel)]="user.surname" class="form-input"
+             id="firstName" />
+    </div>
+    <div class="p-t-31 p-b-9">
+            <span class="txt1">
+              Пошта
+            </span>
+    </div>
+    <div class="form-group">
+      <input type="email" name="email" [(ngModel)]="user.email" class="form-input" id="email" />
+    </div>
+    <div class="p-t-31 p-b-9">
+            <span class="txt1">
+              Номер моб. тел.
+            </span>
+    </div>
+    <div class="form-group">
+      <input type="tel" name="phoneNumber" [(ngModel)]="user.phoneNumber" class="form-input"
+             id="phoneNumber" />
+    </div>
+    <div class="p-t-31 p-b-9">
+            <span class="txt1">
+              Пароль
+            </span>
+    </div>
+    <div class="form-group">
+      <input type="password" class="form-input" name="password" [(ngModel)]="user.password"
+             id="password" />
+      <span toggle="#password" class="zmdi zmdi-eye field-icon toggle-password"></span>
+    </div>
+    <div class="p-t-31 p-b-9">
+            <span class="txt1">
+              Повторіть пароль
+            </span>
+    </div>
+    <div class="form-group">
+      <input type="password" class="form-input" name="r-password" [(ngModel)]="rpassword"
+             id="r-password" placeholder="Repeat your password" />
+    </div>
+    <div class="form-group">
+      <button mdbBtn class="login100-form-btn" (click)="submit()">
+        Sign Up
+      </button>
+    </div>
+  </div>
+
+  <div class="col-6">
+    <ul *ngFor="let reservation of reservations" class="shadow bookings-list">
+          <li  class="bookings-item">
+            <div class="row shadow">
+              <div class="col-6">
+                <img class="d-block w-100" style="float: left;"
+                     src="http://distritech.kz/images/person.png" width="100%" alt="Picture">
+              </div>
+              <div class="col-6" style="padding-top: 1%;">
+                <h3>Нормер № {{reservation.room}}</h3>
+                <div style="padding-top: 5%;">
+                <span>
+                  Ціна:  {{reservation.price}}</span>
+                </div>
+                <div>
+                  Дата заїзду:  <span class="reservation-date">
+                  {{reservation.startDate}}</span></div>
+                <div>
+                  Дата виїзду:   <span class="reservation-date">
+                  {{reservation.endDate}}</span></div>
+              </div>
+            </div>
+          </li>
+    </ul>
+    <ul *ngIf="empty" class="bookings-list">
+      <li class="notice">
+        You have no bookings yet. All your bookings will be displayed here.
+      </li>
+    </ul>
+  </div>
+</div>
+</div>

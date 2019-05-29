@@ -11,7 +11,7 @@ import {Router} from '@angular/router';
 })
 export class LoginComponent implements OnInit {
 
-  user: User;
+  user: User = new User(0, '', '', '', '', '');
 
   constructor( private cookieService: CookieService, private router: Router, private userService: UserService) { }
 
@@ -19,7 +19,12 @@ export class LoginComponent implements OnInit {
   }
 
   login() {
-    this.userService.login(this.user).subscribe();
+    this.userService.login(this.user).subscribe(
+      data => {
+        this.userService.set(data.token);
+        console.log(data.token);
+      }
+    );
     this.router.navigate(['/home']);
   }
 

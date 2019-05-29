@@ -12,6 +12,8 @@ import { RegistrationComponent } from './registration/registration.component';
 import { CookieService } from 'ngx-cookie-service';
 import { LoginComponent } from './login/login.component';
 import {AuthService} from './interceptors/auth.service';
+import { LogoutComponent } from './logout/logout.component';
+import { MypageComponent } from './mypage/mypage.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import {AuthService} from './interceptors/auth.service';
     RoomDetailsComponent,
     BookingComponent,
     RegistrationComponent,
-    LoginComponent
+    LoginComponent,
+    LogoutComponent,
+    MypageComponent
   ],
   imports: [
     AlertModule.forRoot(),

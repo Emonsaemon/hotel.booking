@@ -19,7 +19,14 @@ public class RoomInfoConverter implements Converter<Room, RoomInfoDTO> {
     @Autowired
     public RoomInfoConverter(ModelMapper mapper) {
         this.mapper = mapper;
-        this.toDTOConverter = context -> context.getSource().get(0);
+        this.toDTOConverter = context -> {
+            List<String> source = context.getSource();
+            if (source != null && source.size() > 0) {
+                return source.get(0);
+            } else {
+                return null;
+            }
+        };
         this.roomMap = new PropertyMap<Room, RoomInfoDTO>() {
             protected void configure() {
                 using(toDTOConverter).map(source.getPhoto()).setPhoto(null);

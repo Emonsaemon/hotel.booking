@@ -14,7 +14,7 @@ export class UserService {
 	constructor(private http: HttpClient, private cookieService: CookieService) {
 	}
 	
-	baseUrl: string = 'http://localhost:8080/users/'
+	baseUrl: string = 'http://localhost:8080/users/';
   authUrl: string = 'http://localhost:8080/authentication/';
 
 	findAll(): Observable<User[]> {
@@ -25,6 +25,10 @@ export class UserService {
 		return this.http.get<User>(this.baseUrl + id);
 	}
 
+	findCurrent(): Observable<User> {
+    return this.http.get<User>((this.authUrl + "current"));
+  }
+
 	signup(user: User): Observable<Token> {
     return this.http.post<Token>(this.authUrl + "signup", user);
   }
@@ -32,7 +36,11 @@ export class UserService {
   login(user: User): Observable<Token> {
     return this.http.post<Token>(this.authUrl + "signin", user);
   }
-	
+
+  logout(): Observable<any> {
+	  return this.http.get<any>(this.authUrl + "logout");
+  }
+  
 	createUser(user: User): Observable<User> {
 		return this.http.post<User>(this.baseUrl + "create", user);
 	}

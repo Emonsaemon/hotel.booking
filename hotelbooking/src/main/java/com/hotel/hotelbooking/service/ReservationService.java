@@ -3,6 +3,7 @@ package com.hotel.hotelbooking.service;
 import com.hotel.hotelbooking.exception.ElementNotFoundException;
 import com.hotel.hotelbooking.model.Reservation;
 import com.hotel.hotelbooking.model.Room;
+import com.hotel.hotelbooking.model.User;
 import com.hotel.hotelbooking.repository.ReservationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -30,6 +31,11 @@ public class ReservationService {
     public List<Reservation> findByRoomId(Long id) {
         Room room = roomService.findById(id);
         return repository.findReservationsByRoom(room);
+    }
+
+    public List<Reservation> findByUserId(Long id) {
+        User user = userService.findById(id);
+        return repository.findReservationsByUser(user);
     }
 
     public Reservation findByStartDateAndEndDate(Date start, Date end) throws ElementNotFoundException {
