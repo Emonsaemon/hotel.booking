@@ -62,7 +62,7 @@ export class RegistrationComponent implements OnInit {
     this.userService.signup(this.user).subscribe(data => {
       console.log(data.token);
       this.userService.set(data.token);
+      window.location.href = 'http://localhost:4200/home';
     });
-    window.location.href = 'http://localhost:4200/home';
   }
 }

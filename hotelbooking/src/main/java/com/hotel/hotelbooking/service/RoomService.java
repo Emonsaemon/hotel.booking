@@ -1,7 +1,9 @@
 package com.hotel.hotelbooking.service;
 
 import com.hotel.hotelbooking.exception.ElementNotFoundException;
+import com.hotel.hotelbooking.model.Reservation;
 import com.hotel.hotelbooking.model.Room;
+import com.hotel.hotelbooking.repository.ReservationRepository;
 import com.hotel.hotelbooking.repository.RoomRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -18,13 +20,16 @@ import java.util.Optional;
 public class RoomService {
 
     private RoomRepository repository;
+    private ReservationRepository resRepository;
     private FileStorageService fileStorageService;
 
     @Autowired
     public RoomService(RoomRepository repository,
-                       FileStorageService fileStorageService) {
+                       FileStorageService fileStorageService,
+                       ReservationRepository resRepository) {
         this.repository = repository;
         this.fileStorageService = fileStorageService;
+        this.resRepository =resRepository;
     }
 
     public Room findByBed(Byte bed) {
@@ -56,6 +61,13 @@ public class RoomService {
     public void deleteById(Long id) throws ElementNotFoundException {
         Optional<Room> room = repository.findById(id);
         if (room.isPresent()) {
+            Room toDelete = room.get();
+            List<Reservation> reservations = toDelete.getReservations();
+            if(reservations!=null){
+                for(Reservation s: reservations) {
+                    resRepository.delete(s);
+                }
+            }
             repository.delete(room.get());
         } else {
             throw new ElementNotFoundException("Room for deletion not found!");

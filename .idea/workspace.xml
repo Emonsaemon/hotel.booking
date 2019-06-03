@@ -2,42 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccb39fc2-8a7b-4abd-b9e1-927afc100897" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_io_7_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_kernel_7_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_layout_7_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booking/src/app/model/UserRole.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booking/src/app/service/image.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/controller/FileController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/controller/ImageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/service/FileService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/service/FileStorageService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/booking/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/booking/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/booking/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/booking/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking/src/app/booking/booking.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/booking/src/app/booking/booking.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking/src/app/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/booking/src/app/login/login.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking/src/app/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/booking/src/app/login/login.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking/src/app/main-page/main-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/booking/src/app/main-page/main-page.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking/src/app/model/roomDetails.ts" beforeDir="false" afterPath="$PROJECT_DIR$/booking/src/app/model/roomDetails.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking/src/app/mypage/mypage.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/booking/src/app/mypage/mypage.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking/src/app/mypage/mypage.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/booking/src/app/mypage/mypage.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking/src/app/registration/registration.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/booking/src/app/registration/registration.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/booking/src/app/registration/registration.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/booking/src/app/registration/registration.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking/src/app/room-details/room-details.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/booking/src/app/room-details/room-details.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking/src/app/room-details/room-details.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/booking/src/app/room-details/room-details.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking/src/app/room-details/room-details.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/booking/src/app/room-details/room-details.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking/src/app/service/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/booking/src/app/service/user.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotelbooking/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hotelbooking/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/HotelbookingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/HotelbookingApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/controller/RoomController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/controller/RoomController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/model/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/model/Room.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/service/RoomService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/service/RoomService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotelbooking/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hotelbooking/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/hotelbooking/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -105,36 +72,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/booking/src/app/registration/registration.component.ts">
+        <entry file="file://$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/service/RoomService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="65" column="56" selection-start-line="65" selection-start-column="56" selection-end-line="65" selection-end-column="56" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="327">
+              <caret line="68" column="17" lean-forward="true" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/booking/src/app/mypage/mypage.component.ts">
+        <entry file="file://$PROJECT_DIR$/hotelbooking/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/booking/src/app/mypage/mypage.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="69" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="69" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -144,6 +94,18 @@
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/booking/src/app/registration/registration.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="63" column="39" lean-forward="true" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -173,14 +135,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/booking/src/app/booking/booking.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
+            <state relative-caret-position="303">
               <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/booking/src/app/room-details/room-details.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -193,18 +167,6 @@
               <caret line="34" column="7" selection-start-line="31" selection-start-column="17" selection-end-line="34" selection-end-column="7" />
               <folding>
                 <element signature="e#0#59#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/booking/src/app/login/login.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="10" column="2" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="10" selection-end-column="2" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -243,7 +205,6 @@
         <option value="$PROJECT_DIR$/booking/src/app/edit-room/edit-room.component.css" />
         <option value="$PROJECT_DIR$/booking/src/app/app-routing.module.ts" />
         <option value="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/HotelbookingApplication.java" />
-        <option value="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/service/RoomService.java" />
         <option value="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/service/FileStorageService.java" />
         <option value="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/controller/ImageController.java" />
         <option value="$PROJECT_DIR$/booking/src/app/main-page/main-page.component.html" />
@@ -259,17 +220,18 @@
         <option value="$PROJECT_DIR$/booking/src/app/administration/administration.component.html" />
         <option value="$PROJECT_DIR$/booking/src/app/room-details/room-details.component.css" />
         <option value="$PROJECT_DIR$/booking/src/app/room-details/room-details.component.html" />
-        <option value="$PROJECT_DIR$/booking/src/app/room-details/room-details.component.ts" />
         <option value="$PROJECT_DIR$/booking/src/app/administration/administration.component.ts" />
         <option value="$PROJECT_DIR$/booking/src/app/edit-room/edit-room.component.ts" />
         <option value="$PROJECT_DIR$/booking/src/app/login/login.component.html" />
         <option value="$PROJECT_DIR$/booking/src/app/registration/registration.component.html" />
         <option value="$PROJECT_DIR$/booking/src/app/login/login.component.ts" />
-        <option value="$PROJECT_DIR$/booking/src/app/registration/registration.component.ts" />
         <option value="$PROJECT_DIR$/booking/src/app/mypage/mypage.component.html" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/booking/src/app/edit-room/edit-room.component.html" />
         <option value="$PROJECT_DIR$/booking/src/app/booking/booking.component.html" />
+        <option value="$PROJECT_DIR$/booking/src/app/room-details/room-details.component.ts" />
+        <option value="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/service/RoomService.java" />
+        <option value="$PROJECT_DIR$/booking/src/app/registration/registration.component.ts" />
       </list>
     </option>
   </component>
@@ -390,6 +352,14 @@
             <path>
               <item name="hotel.booking" type="b2602c69:ProjectViewProjectNode" />
               <item name="hotel.booking" type="462c0819:PsiDirectoryNode" />
+              <item name="booking" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="room-details" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hotel.booking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotel.booking" type="462c0819:PsiDirectoryNode" />
               <item name="hotelbooking" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -432,6 +402,24 @@
               <item name="hotelbooking" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="hotel.booking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotel.booking" type="462c0819:PsiDirectoryNode" />
+              <item name="hotelbooking" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hotelbooking" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hotel.booking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotel.booking" type="462c0819:PsiDirectoryNode" />
+              <item name="hotelbooking" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -448,7 +436,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559591488994" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559598224817" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/hotelbooking/pom.xml" />
@@ -491,17 +479,18 @@
       <workItem from="1558451025565" duration="11216000" />
       <workItem from="1559142629105" duration="657000" />
       <workItem from="1559303764349" duration="53746000" />
-      <workItem from="1559568102092" duration="18259000" />
+      <workItem from="1559568102092" duration="20690000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83878000" />
+    <option name="totallyTimeSpent" value="86309000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.38426626" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38350984" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -511,14 +500,14 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31096563" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.5237316" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Database Console" order="8" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.67266774" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.35679215" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="CheckStyle" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
@@ -530,7 +519,7 @@
       <window_info anchor="right" id="Maven" order="0" weight="0.20196672" />
       <window_info anchor="right" id="Palette" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.056732222" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.16717096" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
@@ -585,13 +574,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/HotelbookingApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/service/FileStorageService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
@@ -737,13 +719,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/service/RoomService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="93" column="32" selection-start-line="93" selection-start-column="32" selection-end-line="93" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://ac13e158-7ac1-401e-8cbb-9fbe61e3952f/schema/hotelbooking/table/rooms_photo">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -851,16 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/booking/src/app/room-details/room-details.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/controller/RoomController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
@@ -922,23 +887,6 @@
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/booking/src/app/registration/registration.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="65" column="56" selection-start-line="65" selection-start-column="56" selection-end-line="65" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://ac13e158-7ac1-401e-8cbb-9fbe61e3952f/schema/hotelbooking/table/users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1014,11 +962,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/booking/src/app/booking/booking.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
+        <state relative-caret-position="303">
           <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/app/room-details/room-details.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/service/RoomService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="68" column="17" lean-forward="true" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotelbooking/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://ac13e158-7ac1-401e-8cbb-9fbe61e3952f/schema/hotelbooking/table/users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/app/registration/registration.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="63" column="39" lean-forward="true" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
