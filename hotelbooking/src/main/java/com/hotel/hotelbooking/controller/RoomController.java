@@ -11,8 +11,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
+import org.springframework.web.servlet.view.RedirectView;
 
+import java.io.IOException;
 import java.util.List;
+import java.util.NoSuchElementException;
 
 @RestController
 @RequestMapping("/rooms")
@@ -59,5 +63,34 @@ public class RoomController {
     @DeleteMapping("/delete/{id}")
     public void deleteById(@PathVariable Long id) throws ElementNotFoundException {
         roomService.deleteById(id);
+    }
+
+    @PostMapping("/{id}/images")
+    public ResponseEntity<RoomDetailsDTO> addImage(@PathVariable Long id,
+            @RequestParam("files") MultipartFile[] files)
+            throws IOException {
+        return new ResponseEntity<>(roomDetailsConverter.convertToDTO(
+                roomService.createImages(files, id)),
+                HttpStatus.CREATED);
+    }
+
+    @GetMapping("/images/{imageName}")
+    public RedirectView redirectToImageGet(@PathVariable String imageName) {
+        return new RedirectView("/images/" + imageName);
+    }
+
+    @DeleteMapping("/{id}/images")
+    public void deleteImageById(@PathVariable Long id)
+            throws IOException, NoSuchElementException {
+        roomService.deleteImages(id);
+    }
+
+    @PutMapping("/{id}/image")
+    public ResponseEntity<RoomDetailsDTO> updateImageById(
+            @PathVariable Long id, @RequestParam("file") MultipartFile[] file)
+            throws IOException, NoSuchElementException {
+        Room room = roomService.updateImages(id, file);
+        return new ResponseEntity<>(roomDetailsConverter.convertToDTO(
+                room), HttpStatus.ACCEPTED);
     }
 }

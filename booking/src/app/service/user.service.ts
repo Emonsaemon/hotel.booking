@@ -5,6 +5,7 @@ import {Observable} from 'rxjs';
 import {findAll} from '@angular/compiler-cli/src/ngcc/src/utils';
 import {CookieService} from 'ngx-cookie-service';
 import {Token} from '../model/token';
+import {UserRole} from "../model/UserRole";
 
 @Injectable({
 	providedIn: 'root'
@@ -52,6 +53,10 @@ export class UserService {
 	deleteRoute(id: number): Observable<User> {
 		return this.http.delete<User>(this.baseUrl + "delete/" + id);
 	}
+
+	checkAdmin(): Observable<UserRole> {
+    return this.http.get<UserRole>(this.baseUrl + "isadmin");
+  }
 
   set(token: string) {
     this.cookieService.set('Authentication', token);

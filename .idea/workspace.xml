@@ -2,22 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccb39fc2-8a7b-4abd-b9e1-927afc100897" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/booking/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/booking/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_io_7_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_kernel_7_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_layout_7_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booking/src/app/model/UserRole.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booking/src/app/service/image.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/controller/FileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/controller/ImageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/service/FileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/service/FileStorageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/booking/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/booking/src/app/app-routing.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/booking/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/booking/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/booking/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/booking/src/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/booking/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/booking/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking/src/app/booking/booking.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/booking/src/app/booking/booking.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/booking/src/app/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/booking/src/app/login/login.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/booking/src/app/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/booking/src/app/login/login.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking/src/app/service/reservation.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/booking/src/app/service/reservation.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking/src/app/main-page/main-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/booking/src/app/main-page/main-page.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking/src/app/model/roomDetails.ts" beforeDir="false" afterPath="$PROJECT_DIR$/booking/src/app/model/roomDetails.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking/src/app/mypage/mypage.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/booking/src/app/mypage/mypage.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking/src/app/mypage/mypage.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/booking/src/app/mypage/mypage.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking/src/app/registration/registration.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/booking/src/app/registration/registration.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking/src/app/registration/registration.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/booking/src/app/registration/registration.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking/src/app/room-details/room-details.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/booking/src/app/room-details/room-details.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking/src/app/room-details/room-details.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/booking/src/app/room-details/room-details.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking/src/app/room-details/room-details.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/booking/src/app/room-details/room-details.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/booking/src/app/service/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/booking/src/app/service/user.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/booking/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/controller/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/controller/AuthenticationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/controller/ReservationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/controller/ReservationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotelbooking/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hotelbooking/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/HotelbookingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/HotelbookingApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/controller/RoomController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/controller/RoomController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/dto/converter/RoomInfoConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/dto/converter/RoomInfoConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/repository/ReservationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/repository/ReservationRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/service/ReservationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/service/ReservationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/model/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/model/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/service/RoomService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/service/RoomService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hotelbooking/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hotelbooking/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/hotelbooking/target/" />
@@ -54,102 +73,151 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="hotelbooking: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="hotelbooking@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="hotelbooking: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="rooms: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="hotelbooking@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="hotelbooking: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="rooms_photo: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/dto/converter/UserConverter.java">
+        <entry file="file://$PROJECT_DIR$/booking/src/app/edit-room/edit-room.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="277">
+              <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="75" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/security/configuration/SecurityConfig.java">
+        <entry file="file://$PROJECT_DIR$/booking/src/app/registration/registration.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-730">
-              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+            <state relative-caret-position="274">
+              <caret line="65" column="56" selection-start-line="65" selection-start-column="56" selection-end-line="65" selection-end-column="56" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/booking/src/app/mypage/mypage.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/booking/src/app/mypage/mypage.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="69" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="69" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://ac13e158-7ac1-401e-8cbb-9fbe61e3952f/schema/hotelbooking/table/users">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/booking/src/app/edit-room/edit-room.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/booking/src/app/login/login.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" lean-forward="true" selection-start-line="1" selection-end-line="2" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/controller/AuthenticationController.java">
+        <entry file="file://$PROJECT_DIR$/booking/src/app/booking/booking.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+            <state relative-caret-position="100">
+              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/controller/RoomController.java">
+        <entry file="file://$PROJECT_DIR$/booking/src/app/booking/booking.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="333">
+              <caret line="34" column="7" selection-start-line="31" selection-start-column="17" selection-end-line="34" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#59#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/controller/ReservationController.java">
+        <entry file="file://$PROJECT_DIR$/booking/src/app/login/login.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/service/ReservationService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/repository/ReservationRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/service/AuthenticationServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-122">
-              <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+            <state relative-caret-position="51">
+              <caret line="10" column="2" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="10" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -157,15 +225,59 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hotelbooking/src/main/resources/application.properties" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/dto/converter/RoomInfoConverter.java" />
-        <option value="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/service/ReservationService.java" />
         <option value="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/repository/ReservationRepository.java" />
         <option value="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/controller/ReservationController.java" />
-        <option value="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/controller/UserController.java" />
         <option value="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/controller/AuthenticationController.java" />
+        <option value="$PROJECT_DIR$/booking/src/app/mypage/mypage.component.ts" />
+        <option value="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/service/UserService.java" />
+        <option value="$PROJECT_DIR$/booking/src/app/model/UserRole.java" />
+        <option value="$PROJECT_DIR$/booking/src/app/service/user.service.ts" />
+        <option value="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/booking/src/app/model/UserRole.ts" />
+        <option value="$PROJECT_DIR$/booking/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/model/Room.java" />
+        <option value="$PROJECT_DIR$/hotelbooking/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/booking/src/app/model/roomDetails.ts" />
+        <option value="$PROJECT_DIR$/booking/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/booking/src/app/edit-room/edit-room.component.css" />
+        <option value="$PROJECT_DIR$/booking/src/app/app-routing.module.ts" />
+        <option value="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/HotelbookingApplication.java" />
+        <option value="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/service/RoomService.java" />
+        <option value="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/service/FileStorageService.java" />
+        <option value="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/controller/ImageController.java" />
+        <option value="$PROJECT_DIR$/booking/src/app/main-page/main-page.component.html" />
+        <option value="$PROJECT_DIR$/booking/src/app/service/image.service.ts" />
+        <option value="$PROJECT_DIR$/booking/src/app/administration/administration.component.css" />
+        <option value="$PROJECT_DIR$/booking/src/app/image-upload/image-upload.component.ts" />
+        <option value="$PROJECT_DIR$/booking/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/controller/RoomController.java" />
+        <option value="$PROJECT_DIR$/hotelbooking/pom.xml" />
+        <option value="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/service/ReservationService.java" />
+        <option value="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/controller/FileController.java" />
+        <option value="$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/service/FileService.java" />
+        <option value="$PROJECT_DIR$/booking/src/app/administration/administration.component.html" />
+        <option value="$PROJECT_DIR$/booking/src/app/room-details/room-details.component.css" />
+        <option value="$PROJECT_DIR$/booking/src/app/room-details/room-details.component.html" />
+        <option value="$PROJECT_DIR$/booking/src/app/room-details/room-details.component.ts" />
+        <option value="$PROJECT_DIR$/booking/src/app/administration/administration.component.ts" />
+        <option value="$PROJECT_DIR$/booking/src/app/edit-room/edit-room.component.ts" />
+        <option value="$PROJECT_DIR$/booking/src/app/login/login.component.html" />
+        <option value="$PROJECT_DIR$/booking/src/app/registration/registration.component.html" />
+        <option value="$PROJECT_DIR$/booking/src/app/login/login.component.ts" />
+        <option value="$PROJECT_DIR$/booking/src/app/registration/registration.component.ts" />
+        <option value="$PROJECT_DIR$/booking/src/app/mypage/mypage.component.html" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/booking/src/app/edit-room/edit-room.component.html" />
+        <option value="$PROJECT_DIR$/booking/src/app/booking/booking.component.html" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -185,9 +297,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="507" />
-    <option name="width" value="706" />
-    <option name="height" value="688" />
+    <option name="x" value="-7" />
+    <option name="width" value="739" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -209,6 +321,75 @@
             <path>
               <item name="hotel.booking" type="b2602c69:ProjectViewProjectNode" />
               <item name="hotel.booking" type="462c0819:PsiDirectoryNode" />
+              <item name="booking" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hotel.booking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotel.booking" type="462c0819:PsiDirectoryNode" />
+              <item name="booking" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hotel.booking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotel.booking" type="462c0819:PsiDirectoryNode" />
+              <item name="booking" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="administration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hotel.booking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotel.booking" type="462c0819:PsiDirectoryNode" />
+              <item name="booking" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="booking" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hotel.booking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotel.booking" type="462c0819:PsiDirectoryNode" />
+              <item name="booking" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="edit-room" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hotel.booking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotel.booking" type="462c0819:PsiDirectoryNode" />
+              <item name="booking" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptors" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hotel.booking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotel.booking" type="462c0819:PsiDirectoryNode" />
+              <item name="booking" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hotel.booking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotel.booking" type="462c0819:PsiDirectoryNode" />
+              <item name="booking" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="mypage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hotel.booking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotel.booking" type="462c0819:PsiDirectoryNode" />
+              <item name="booking" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="registration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hotel.booking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotel.booking" type="462c0819:PsiDirectoryNode" />
               <item name="hotelbooking" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -240,16 +421,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hotelbooking" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hotel.booking" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hotel.booking" type="462c0819:PsiDirectoryNode" />
-              <item name="hotelbooking" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hotelbooking" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hotel.booking" type="b2602c69:ProjectViewProjectNode" />
@@ -260,91 +431,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hotelbooking" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hotel.booking" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hotel.booking" type="462c0819:PsiDirectoryNode" />
-              <item name="hotelbooking" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hotelbooking" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hotel.booking" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hotel.booking" type="462c0819:PsiDirectoryNode" />
-              <item name="hotelbooking" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hotelbooking" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-              <item name="converter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hotel.booking" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hotel.booking" type="462c0819:PsiDirectoryNode" />
-              <item name="hotelbooking" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hotelbooking" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hotel.booking" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hotel.booking" type="462c0819:PsiDirectoryNode" />
-              <item name="hotelbooking" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hotelbooking" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hotel.booking" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hotel.booking" type="462c0819:PsiDirectoryNode" />
-              <item name="hotelbooking" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hotelbooking" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-              <item name="configuration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hotel.booking" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hotel.booking" type="462c0819:PsiDirectoryNode" />
-              <item name="hotelbooking" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hotelbooking" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hotel.booking" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hotel.booking" type="462c0819:PsiDirectoryNode" />
-              <item name="hotelbooking" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hotel.booking" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-            </path>
-            <path>
-              <item name="hotel.booking" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-            </path>
-            <path>
-              <item name="hotel.booking" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-              <item name="ac13e158-7ac1-401e-8cbb-9fbe61e3952f" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
             </path>
           </expand>
           <select />
@@ -362,13 +448,14 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558516868359" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559591488994" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/hotelbooking/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="E:\work\intellijworkspace\angular\hotel.booking\booking\node_modules\typescript\lib" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -402,52 +489,93 @@
       <option name="presentableId" value="Default" />
       <updated>1558451000840</updated>
       <workItem from="1558451025565" duration="11216000" />
+      <workItem from="1559142629105" duration="657000" />
+      <workItem from="1559303764349" duration="53746000" />
+      <workItem from="1559568102092" duration="18259000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11216000" />
+    <option name="totallyTimeSpent" value="83878000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3540091" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.38426626" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Console" weight="0.3289689" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CheckStyle" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4942717" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31096563" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Database Console" order="8" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.67266774" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CheckStyle" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="bottom" id="Version Control" order="16" />
+      <window_info anchor="bottom" id="TypeScript" order="17" />
+      <window_info anchor="right" id="Maven" order="0" weight="0.20196672" />
+      <window_info anchor="right" id="Palette" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.056732222" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="right" id="Bean Validation" order="8" weight="0.33736762" />
+      <window_info anchor="right" id="Ant Build" order="9" weight="0.19818456" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28441754" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.47463176" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39934534" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Database Console" order="9" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.21931261" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CheckStyle" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="14" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" />
+      <window_info anchor="bottom" id="Database Changes" order="16" />
+      <window_info anchor="bottom" id="Version Control" order="17" />
       <window_info anchor="right" id="Maven" order="0" visible="true" weight="0.21331316" />
       <window_info anchor="right" id="Palette" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="right" id="Database" order="3" weight="0.1376702" />
+      <window_info anchor="right" id="Database" order="3" weight="0.13691376" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Bean Validation" order="6" weight="0.32980332" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="right" id="Bean Validation" order="8" weight="0.022692889" />
       <window_info anchor="right" id="Ant Build" order="9" weight="0.19818456" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -457,40 +585,120 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hotelbooking/src/test/java/com/hotel/hotelbooking/HotelbookingApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/HotelbookingApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        <state relative-caret-position="170">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hotelbooking/pom.xml">
+    <entry file="file://$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/service/FileStorageService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        <state relative-caret-position="218">
+          <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/booking/tsconfig.json">
+    <entry file="file://$PROJECT_DIR$/hotelbooking/target/images/2019-39-01_04_39_1752.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/app/model/roomInfo.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/booking/package-lock.json">
+    <entry file="file://$PROJECT_DIR$/booking/src/app/main-page/main-page.component.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/booking/package.json">
+    <entry file="file://$PROJECT_DIR$/booking/src/app/main-page/main-page.component.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        <state>
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ac13e158-7ac1-401e-8cbb-9fbe61e3952f/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hotelbooking/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/booking/src/app/service/room.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="15" selection-start-column="30" selection-end-line="16" />
+        <state relative-caret-position="392">
+          <caret line="36" column="1" selection-end-line="36" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/app/administration/administration.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/app/image-upload/image-upload.component.ts" />
+    <entry file="file://$PROJECT_DIR$/booking/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="68" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/app/main-page/main-page.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="45" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="11" selection-end-column="45" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#span#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#span#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#span#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#a#0;n#span#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/app/edit-room/edit-room.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/app/service/image.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/app/room-details/room-details.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/app/main-page/main-page.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -501,56 +709,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/config/SwaggerConfig.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.6.RELEASE/spring-aop-5.1.6.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-226">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="113">
+          <caret line="485" selection-start-line="485" selection-end-line="485" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/HotelbookingApplication.java">
+    <entry file="file://$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/controller/ReservationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-279">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/dto/converter/Converter.java">
+    <entry file="file://$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/dto/converter/RoomInfoConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#779#959#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-            <element signature="e#1422#1423#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://ac13e158-7ac1-401e-8cbb-9fbe61e3952f/schema/hotelbooking/table/rooms_photo">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://ac13e158-7ac1-401e-8cbb-9fbe61e3952f/schema/hotelbooking/table/users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+        <state relative-caret-position="119">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -561,73 +737,289 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/dto/converter/UserConverter.java">
+    <entry file="file://$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/service/RoomService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="1275">
+          <caret line="93" column="32" selection-start-line="93" selection-start-column="32" selection-end-line="93" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/security/configuration/SecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-730">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+    <entry file="das://ac13e158-7ac1-401e-8cbb-9fbe61e3952f/schema/hotelbooking/table/rooms_photo">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/service/AuthenticationServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/hotelbooking/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-122">
-          <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+        <state relative-caret-position="249">
+          <caret line="62" column="20" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/repository/ReservationRepository.java">
+    <entry file="file://$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/model/Reservation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/model/Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/service/ReservationService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/controller/RoomController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/controller/ReservationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        <state relative-caret-position="408">
+          <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="115" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/controller/AuthenticationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        <state relative-caret-position="97">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/controller/ImageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/controller/FileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="33" column="73" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/service/FileService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/app/room-details/room-details.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/app/room-details/room-details.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="54" column="22" lean-forward="true" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#2;n#table#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#li#0;n#ul#0;n#td#1;n#tr#2;n#table#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#3;n#table#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#4;n#table#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#5;n#table#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/app/room-details/room-details.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotelbooking/src/main/java/com/hotel/hotelbooking/controller/RoomController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="93" column="38" selection-start-line="93" selection-start-column="38" selection-end-line="93" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/app/administration/administration.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="61" column="6" lean-forward="true" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/app/administration/administration.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="86" column="29" lean-forward="true" selection-start-line="86" selection-start-column="26" selection-end-line="86" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/app/registration/registration.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="54" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="54" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/app/app.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/app/interceptors/auth.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-169">
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/app/registration/registration.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="65" column="56" selection-start-line="65" selection-start-column="56" selection-end-line="65" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://ac13e158-7ac1-401e-8cbb-9fbe61e3952f/schema/hotelbooking/table/users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/app/login/login.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="10" column="2" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="10" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/app/mypage/mypage.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/app/mypage/mypage.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="69" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="69" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/app/login/login.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="1" selection-end-line="2" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/app/booking/booking.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="34" column="7" selection-start-line="31" selection-start-column="17" selection-end-line="34" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/app/edit-room/edit-room.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="75" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/app/edit-room/edit-room.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking/src/app/booking/booking.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

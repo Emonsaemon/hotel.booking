@@ -1,0 +1,13 @@
+ul {
+  list-style-type: disc;
+}
+
+li {
+  display: inline;
+  margin: 2%;
+}
+
+td {
+  padding-left: 5%;
+  padding-bottom: 3%;
+}

@@ -16,7 +16,7 @@ public class Room {
     private Byte floor;
 
     @NotNull
-    @Column(nullable = false, name="room_number")
+    @Column(nullable = false)
     private Byte roomNumber;
 
     @Column(nullable = false)

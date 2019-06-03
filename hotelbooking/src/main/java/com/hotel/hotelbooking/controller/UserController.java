@@ -4,6 +4,7 @@ import com.hotel.hotelbooking.dto.UserDTO;
 import com.hotel.hotelbooking.dto.converter.UserConverter;
 import com.hotel.hotelbooking.exception.ElementNotFoundException;
 import com.hotel.hotelbooking.model.User;
+import com.hotel.hotelbooking.model.UserRole;
 import com.hotel.hotelbooking.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -55,5 +56,12 @@ public class UserController {
     @DeleteMapping("/delete/{id}")
     public void deleteById(@PathVariable Long id) throws ElementNotFoundException {
         userService.deleteById(id);
+    }
+
+    @GetMapping("/isadmin")
+    public ResponseEntity<UserRole> isAdmin() {
+        User user = userService.getCurrentUser();
+        UserRole role = (user == null) ? null : user.getRole();
+        return new ResponseEntity<>(role, HttpStatus.OK);
     }
 }

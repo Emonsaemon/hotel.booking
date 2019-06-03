@@ -63,6 +63,6 @@ export class RegistrationComponent implements OnInit {
       console.log(data.token);
       this.userService.set(data.token);
     });
-    this.router.navigate(['/home']);
+    window.location.href = 'http://localhost:4200/home';
   }
 }

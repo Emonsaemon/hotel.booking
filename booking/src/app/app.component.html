@@ -27,11 +27,24 @@
                                                       data-bs-hover-animate="pulse" routerLink="/login" style="color: #2d1a78;">Увійти в аккаунт</a></li>
         </ul>
         <ul *ngIf="isLoggedIn" class="nav navbar-nav ml-auto">
-          <li class="nav-item" role="presentation"></li>
-          <li class="nav-item" role="presentation"><a class="nav-link"
-                                                      data-bs-hover-animate="pulse" href="/mypage" style="color: #2d1a78;">Особистий кабінет</a></li>
-          <li class="nav-item" role="presentation"><a class="nav-link"
-                                                      data-bs-hover-animate="pulse" href="/logout" style="color: #2d1a78;">Вийти</a></li>
+          <li class="nav-item" role="presentation">
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" data-bs-hover-animate="pulse" routerLink="/mypage" style="color: #2d1a78;">
+              Особистий кабінет
+            </a>
+          </li>
+          <li *ngIf="isAdmin" class="nav-item" role="presentation">
+            <a class="nav-link" data-bs-hover-animate="pulse" routerLink="/administration" style="color: #2d1a78;">
+              Адміністрування
+            </a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" data-bs-hover-animate="pulse"
+               routerLink="/logout" style="color: #2d1a78;">
+              Вийти
+            </a>
+          </li>
         </ul>
       </div>
     </div>

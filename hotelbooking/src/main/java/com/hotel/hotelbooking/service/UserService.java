@@ -6,6 +6,7 @@ import com.hotel.hotelbooking.repository.UserRepository;
 import com.hotel.hotelbooking.security.UserDetailsImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -16,10 +17,13 @@ import java.util.Optional;
 public class UserService {
 
     private UserRepository repository;
+    private PasswordEncoder passwordEncoder;
 
     @Autowired
-    public UserService(UserRepository repository) {
+    public UserService(UserRepository repository,
+                       PasswordEncoder passwordEncoder) {
         this.repository = repository;
+        this.passwordEncoder = passwordEncoder;
     }
 
     public User findByEmail(String email) {
@@ -44,8 +48,12 @@ public class UserService {
     }
 
     public User getCurrentUser() {
-        UserDetailsImpl userDetails  = (UserDetailsImpl) SecurityContextHolder.getContext()
+        Object user = SecurityContextHolder.getContext()
                 .getAuthentication().getPrincipal();
+        if (user instanceof String) {
+            return null;
+        }
+        UserDetailsImpl userDetails  = (UserDetailsImpl) user;
         return findByEmail(userDetails.getUsername());
     }
 
@@ -55,6 +63,7 @@ public class UserService {
     }
 
     public User update(User user) {
+        user.setPassword(passwordEncoder.encode(user.getPassword()));
         return repository.save(user);
     }
 

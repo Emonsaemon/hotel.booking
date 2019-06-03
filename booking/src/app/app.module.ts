@@ -14,6 +14,8 @@ import { LoginComponent } from './login/login.component';
 import {AuthService} from './interceptors/auth.service';
 import { LogoutComponent } from './logout/logout.component';
 import { MypageComponent } from './mypage/mypage.component';
+import { AdministrationComponent } from './administration/administration.component';
+import { EditRoomComponent } from './edit-room/edit-room.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { MypageComponent } from './mypage/mypage.component';
     RegistrationComponent,
     LoginComponent,
     LogoutComponent,
-    MypageComponent
+    MypageComponent,
+    AdministrationComponent,
+    EditRoomComponent
   ],
   imports: [
     AlertModule.forRoot(),

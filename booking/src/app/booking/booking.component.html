@@ -1,10 +1,24 @@
-<div [ngStyle]="{'visibility':isValid ? 'hidden' : 'visible'}" style="color: red; text-align:center; width:100%; font-size: 16px;">
-  На жаль, деякі або всі обрані дні вже зарезервовані іншими клієнтами!
-</div>
+<div style="padding-left: 10%; padding-top: 5%; padding-bottom: 5%;">
+  <div class="row">
+    <div class="col-md-6">
+  <div [ngStyle]="{'visibility':isValid ? 'hidden' : 'visible'}" style="color: red; text-align:center; width:100%; font-size: 16px;">
+    На жаль, деякі або всі обрані дні вже зарезервовані іншими клієнтами!
+  </div>
+    Заброньовані дати
+  <ul>
+    <li *ngFor="let booking of bookings">
+      {{booking.startDate}} - {{booking.endDate}}
+    </li>
+  </ul>
+    </div>
+    <div class="col-md-4">
 <div class="display: inline-block; margin: 20px;">
   <p>Введіть дату в'їзду
     <input type="date" name="startDate" [(ngModel)]="reservation.startDate"></p>
   <p>Введіть дату виїзду
     <input type="date" name="endDate" [(ngModel)]="reservation.endDate"></p>
   <p><button (click)="validateData()">Підтвердити</button></p>
+</div>
+</div>
+  </div>
 </div>

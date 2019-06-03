@@ -1,0 +1,64 @@
+<div class="col-md-6 shadow" style="margin-top: 2%; margin-bottom: 2%;
+margin-left: 20%;">
+  <h3>Створити нову кімнату</h3>
+  <p>
+    <label>
+      Поверх
+    </label>
+    <input type="number" name="floor" [(ngModel)]="room.floor">
+  </p>
+  <p>
+    <label>
+      Номер кімнати
+    </label>
+    <input type="number" name="roomNumber" [(ngModel)]="room.number">
+  </p>
+  <p>
+    <label>
+      Кількість спальних місць
+    </label>
+    <input type="number" name="bed" min="1" [(ngModel)]="room.bed">
+  </p>
+  <p>
+    <label>
+      Ціна за ніч
+    </label>
+    <input type="number" name="pricePerNight" step="0.01" min="0"
+           [(ngModel)]="room.pricePerNight">
+  </p>
+  <p>
+    <label>
+      Опис кімнати
+    </label>
+    <textarea rows="10" style="width: 100%;" name="description"
+              placeholder="Введіть опис кімнати" [(ngModel)]="room.description">
+      </textarea>
+  </p>
+
+  <div *ngIf="currentFilesUpload" class="progress">
+    <div class="progress-bar progress-bar-info progress-bar-striped"
+         role="progressbar" attr.aria-valuenow="{{progress.percentage}}"
+         aria-valuemin="0" aria-valuemax="100"
+         [ngStyle]="{width:progress.percentage+'%'}">
+      {{progress.percentage}}%</div>
+  </div>
+
+  <p>
+    <label>
+      Зображення
+    </label>
+    <input type="file" (change)="selectMultipleFiles($event)"
+           multiple="multiple" accept=".jpg, .jpeg, .png">
+  </p>
+
+  <ul>
+    <li *ngFor="let photo of room.photo">
+      <img src="http://localhost:8080/rooms/images/{{photo}}"
+           alt="image"
+           style="height: 25%; width:25%"/>
+    </li>
+  </ul>
+
+  <button (click)="onSubmit()">Оновити</button>
+  <button (click)="delete()">Видалити все</button>
+</div>

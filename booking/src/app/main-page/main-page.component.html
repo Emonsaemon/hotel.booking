@@ -5,11 +5,16 @@
             готелях здатний зіпсувати враження навіть від найгарнішого місця. Але ми подбаємо про те, щоб цього з вами ні в якому разі не сталося! Система онлайн-бронювання номерів HotelBooking - це тільки кращі номери і тільки найвигідніші ціни!</p>
     </div>
 	<div class="container site-section" style="margin-top:5%">
-		<div *ngFor='let room of rooms' style="display: inline-block;">
-			<span style="display: inline-block; box-shadow: 0 0 10px rgba(0,0,0,0.5); padding: 5%; margin: 3%;">
-				<a routerLink="/rooms/{{room.id}}">
-					<span style="padding: 3%;">Кількість спальних місць: {{room.bed}}</span>
-					<span style="padding: 3%; float: right;">Ціна за одну ніч: {{room.pricePerNight}}</span>
+		<div *ngFor='let room of rooms' style="display: inline-block; width: 50%;">
+			<span style="display: inline-block; box-shadow: 0 0 10px
+			rgba(0,0,0,0.5); padding: 5%; margin: 3%;">
+				<img src="http://localhost:8080/rooms/images/{{room.photo}}" alt="image"
+             style="height: 25%; width:25%"/>
+        <a routerLink="/rooms/{{room.id}}" style="display: inline-block;">
+					<span style="display: block;padding-left: 3%;">Кількість спальних місць:
+            {{room.bed}}</span>
+					<span style="padding-left: 3%; display: block;">Ціна за одну ніч:
+            {{room.pricePerNight}}</span>
 				</a>
 			</span>
 		</div>

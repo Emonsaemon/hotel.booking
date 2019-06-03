@@ -25,7 +25,7 @@ export class LoginComponent implements OnInit {
         console.log(data.token);
       }
     );
-    this.router.navigate(['/home']);
+    window.location.href = 'http://localhost:4200/home';
   }
 
 }
